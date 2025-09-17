@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ScrollSmoother exploration - Cassie Evans</title>
-  <link rel="stylesheet" href="./style.css">
-
+ <meta charset="UTF-8">
+ <title>ScrollSmoother exploration - Cassie Evans</title>
+ <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
 <div id="wrapper">
  <section id="content">
   <!--  smooth scrolling biz goes in here -->
@@ -42,37 +40,20 @@
   </section>
 
   <section class="bars container">
-
    <div class="bars-text">
     <div class="flow content">
      <h2>Speed Control</h2>
      <p>Animate elements along at different speeds, slow them down or make them whizz past.</p>
     </div>
-
    </div>
 
    <div class="bars-cont">
-    <div class="bar" data-speed="0.8">
-     <p>0.8</p>
-    </div>
-
-    <div class="bar" data-speed="0.9">
-     <p>0.9</p>
-    </div>
-
-    <div class="bar" data-speed="1">
-     <p>1</p>
-    </div>
-
-    <div class="bar" data-speed="1.1">
-     <p>1.1</p>
-    </div>
-
-    <div class="bar" data-speed="1.2">
-     <p>1.2</p>
-    </div>
+    <div class="bar" data-speed="0.8"><p>0.8</p></div>
+    <div class="bar" data-speed="0.9"><p>0.9</p></div>
+    <div class="bar" data-speed="1"><p>1</p></div>
+    <div class="bar" data-speed="1.1"><p>1.1</p></div>
+    <div class="bar" data-speed="1.2"><p>1.2</p></div>
    </div>
-
   </section>
 
   <section class="v-center">
@@ -82,19 +63,16 @@
   </section>
 
   <section class="staggered container">
-
    <div class="staggered_text">
     <div class="flow content">
      <h2>Add some lag (the good kind!)</h2>
      <p>loosen the connection to the scroll to give a feeling of 'follow through.'</p>
     </div>
-
    </div>
 
    <div class="staggered_demo">
     <h3 id="split-stagger">stagger...</h3>
    </div>
-
   </section>
 
   <section class="parallax-images container">
@@ -116,11 +94,14 @@
   <section class="spacer"></section>
  </section>
 </div>
-<!-- partial -->
+
+<!-- GSAP oficial (sin trial) -->
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollSmoother.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/SplitText.min.js"></script>
 
+<!-- tu código personalizado -->
+<script type="module" src="./script.js"></script>
 </body>
 </html>

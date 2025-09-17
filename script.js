@@ -23,8 +23,3 @@ let chars = mySplitText.chars;
 chars.forEach((char, i) => {
  smoother.effects(char, { speed: 1, lag: (i + 1) * 0.1 });
 });
-
-// 💚 This just adds the GSAP link to this pen, don't copy this bit
-import { GSAPInfoBar } from "https://codepen.io/GreenSock/pen/vYqpyLg.js";
-new GSAPInfoBar({ link: "https://gsap.com/docs/v3/Plugins/ScrollSmoother/" });
-// 💚 Happy tweening!
