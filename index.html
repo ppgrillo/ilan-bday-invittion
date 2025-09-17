@@ -9,8 +9,17 @@
 <div id="wrapper">
  <section id="content">
   <!--  smooth scrolling biz goes in here -->
+  <h2>Celebremos esto juntos!</h2>
+  <div id="timer">
+   <div><span id="days">00</span><span>Días</span></div>
+   <div><span id="hours">00</span><span>Horas</span></div>
+   <div><span id="minutes">00</span><span>Minutos</span></div>
+   <div><span id="seconds">00</span><span>Segundos</span></div>
+  </div>
   <div class="heading" aria-hidden="true">
+
    <p>ILAN 4th</p>
+
    <div class="text-container">
     <p>B-Day</p>
     <p data-speed="0.95">B-Day</p>
@@ -20,17 +29,20 @@
     <p data-speed="0.75">B-Day</p>
     <p data-speed="0.7">B-Day</p>
    </div>
+
+   <h2 id="today-message" class="hidden">¡Hoy es el día!</h2>
+
   </div>
 
   <section class="image-grid container">
-   <div class="image_cont" data-speed="1">
-    <img data-speed="auto" src="https://images.unsplash.com/photo-1556856425-366d6618905d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG5lb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="">
+   <div class="image_cont" data-speed="1.1">
+    <img data-speed="auto" src="img/img2.jpg" alt="" style="transform: translateX(0%) rotateY(180deg);">
    </div>
-   <div class="image_cont" data-speed="1.7">
-    <img data-speed="auto" src="https://images.unsplash.com/photo-1520271348391-049dd132bb7c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="">
+   <div class="image_cont" data-speed="1">
+    <img data-speed="auto" src="img/img3a.gif" alt="" style="transform: translateX(-20%);">
    </div>
    <div class="image_cont" data-speed="1.5">
-    <img data-speed="auto" src="https://images.unsplash.com/photo-1609166214994-502d326bafee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="">
+    <img data-speed="auto" src="img/img8.jpg" alt="">
    </div>
   </section>
 
@@ -102,6 +114,6 @@
 <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/SplitText.min.js"></script>
 
 <!-- tu código personalizado -->
-<script type="module" src="./script.js"></script>
+<script src="countdown.js"></script> <script type="module" src="./script.js"></script>
 </body>
 </html>
