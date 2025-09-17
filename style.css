@@ -124,7 +124,7 @@ h1 .eyebrow {
 .heading p {
   font-family: "wild_worldbold";
   font-size: 15.5vw;
-  font-size: clamp(12px, 15.5vw, 250px);
+  font-size: clamp(12px, 15.5vw, 100px);
   text-align: center;
   line-height: 0.67;
   margin: 0;
